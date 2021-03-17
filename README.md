@@ -12,8 +12,8 @@ Visual Studio Code
 GitHub
 # Deploy link
 
-Github: https://github.com/Herve8/Project-1
-Github repo: 
+- Github: https://github.com/Herve8/Project-1
+- Github repo: https://herve8.github.io/Project-1/
 
 # User story
 
