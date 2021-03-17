@@ -1,0 +1,250 @@
+body {
+  position: relative;
+}
+.site-header {
+  background: #000 !important;
+}
+.site-header.affix {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: rgba( 0, 0, 0, .90 );
+}
+
+/* Navbar for attractive layout */
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  min-height: auto;
+  border: none;
+}
+.navbar-default {
+  border-bottom-color: #D2D6DF;
+  background: none;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #3a3a3a;
+}
+.navbar-brand {
+  height: auto;
+  width: 200px;
+}
+
+nav ul a {
+  margin-bottom: -5px;
+  margin-right:20px;
+}
+
+nav ul a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #fff;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.navbar-nav {
+position: relative;
+margin-top: 2px;
+margin-right: 3%;
+z-index: 1;left: 4px;
+}
+
+.media-fluid {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.site-search .form-group {
+  display: block;
+  padding: 10px;
+}
+
+
+.site-search input[type="text"],
+.site-search button[type="submit"] {
+  float: left;
+  top:10px;
+
+}
+.site-search input[type="text"] {
+  width: 60%;
+  padding-right: 25%;
+
+  background: #3a3a3a;
+  border-color: #333131;
+
+}
+.site-search input[type="text"]:focus {
+  color: #fff;
+}
+.site-search button[type="submit"] {
+  color: #fff;
+  font-weight: bold;
+  width: 30%;
+  margin-top: 5px;
+  margin-left: -30%;
+  text-transform: uppercase;
+  border-color: #333131;
+  background-color: #fa0707;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.site-search button[type="submit"]:hover,
+.site-search button[type="submit"]:focus {
+  border-color: #25075E;
+  background-color: #f6647c;
+}
+
+.addToFavorites {
+  position: absolute;
+  top:5px;
+  padding: 1rem;
+  margin-left:380px;
+  color: black;
+}
+.removeFavorites {
+  position: absolute;
+  top: 25px;
+  margin-left: 380px;
+  color: black;
+}
+
+.carousel-image  {
+  width: 600px !important;
+  height: 600px!important;
+}
+
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1
+}
+
+.alert-danger hr {
+  border-top-color: #e4b9c0
+}
+
+.alert-danger .alert-link {
+  color: #843534
+}
+.HistorySearch {
+  width: 200px !important;
+}
+
+.modal-content{
+  width: 600px;
+  height:400px;
+
+}
+.modal-overlay {
+  background: grey!important;
+
+}
+
+.hidden {
+  display: none;
+}
+.carousel-image{
+  /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#shakira{
+  background-image: url(../img/img1.png);
+}
+#coldplay{
+  background-image: url(../img/img4.png);
+
+}
+#u2{
+  background-image: url(../img/img3.png);
+
+}
+#drake{
+  background-image: url(../img/img2.png);
+}
+
+#chevron-left{
+  font-size: 50px;
+  position: absolute;
+  top: 39%;
+  left: 15%;
+  z-index: 2;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(123 123 123 / 80%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#chevron-right {
+    font-size: 50px;
+    position: absolute;
+    top: 39%;
+  border-radius: 50%;
+    right: 15%;
+    z-index: 2;
+    width: 72px;
+    height: 72px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(123 123 123 / 80%);
+    background-color: rgb(123 123 123 / 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-save{
+  width:90px;
+}
+
+.progress {
+  margin-top: 50%;
+
+}
+
+.dropdown-trigger {
+  position: absolute;
+  margin-top: 10px;
+  margin-right: 2%;
+  z-index: 1;right: 4px;
+  width: 150px!important;
+}
+
+.btn-sm {
+  width:65px;
+}
+
+@media only screen and (max-width: 1280px) {
+
+.navbar-nav {
+  position: relative;
+  margin-top: 2px;
+  margin-right: 2%;
+  z-index: 1;left: 4px;
+
+}
+
+nav ul a {
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  font-size: 1rem;
+  color: #fff;
+  display: block;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+
+}
